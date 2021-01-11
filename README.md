@@ -1,15 +1,17 @@
-This is the starting place in conjunction with my **Redux Toolkit** comparison video. Please start here. NOTE: no dependencies related to Redux are installed here! Please follow along in the video and add them with me!
+My simple Todo App compares Redux vs Redux Toolkit (RTK). Created using TypeScript, ReactJS, Redux and Redux Toolkit.
 
-<img src="image.png" alt="app" style="margin-left: 15px;" />
+<img src="image.jpg" alt="app" style="margin-left: 10px;" />
 
-## How did I create this project?
+## About this app?
 
-1) I created a Typescript template create-react-app project by running <br />
-`npx create-react-app rtk --template typescript`
-2) Personal Preference and purely optional, but I installed `prettier` and created the `.eslintrc.json` file to link prettier and ESLint together.
-3) I installed `uuid` and `@types/uuid` to be able to generate unique IDs.
-4) I removed most of the starter code that CRA gives you and created the template that you see above.
+- The `master` branch has the source code for Redux as the default state manager for the Todo App.
+- The `redux-toolkit` branch has the source code for Redux Toolkit as the default state manager for the app.
+- Also has a counter that keeps track of all CREATE, UPDATE, TOGGLE and DELETE operations in the app.
+- Packages installed are:<br />
+  `@reduxjs/toolkit`, `react-redux`, `redux`, `redux-devtools-extension`, `redux-logger`, `redux-thunk`, `typescript`, `uuid`.
 
-## How do I start the app??
+## How do I start the app?
 
-Go to the root directly, open up the terminal, and type `npm start`
+1. Clone this app `git clone https://github.com/emekamykael45/todoapp-with-redux-and-reduxtoolkit.git`.
+2. Go to the root directly, open up the terminal, and run `npm install` to install all dependencies.
+3. Run `npm start`.

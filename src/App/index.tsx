@@ -6,7 +6,7 @@ import React, {
   useState
 } from "react";
 import { useSelector, useDispatch } from 'react-redux';
-import { createTodoActionCreator, editTodoActionCreator, toggleTodoActionCreator, deleteTodoActionCreator, selectTodoActionCreator } from '../redux-toolkit';
+import { createTodoActionCreator, editTodoActionCreator, toggleTodoActionCreator, deleteTodoActionCreator, selectTodoActionCreator } from '../redux-og';
 import { State } from "../type";
 import "./App.css";
 
@@ -94,7 +94,8 @@ const App = function () {
     <div className="App">
       <div className="App__counter">Todos Updated Count: {editedCount}</div>
       <div className="App__header">
-        <h1>Todo: Redux vs RTK Edition</h1>
+        <h3>Todo App: Redux vs RTK</h3>
+        <h1>Redux</h1>
         <form onSubmit={handleCreateNewTodo}>
           <label htmlFor="new-todo">Add new:</label>
           <input
