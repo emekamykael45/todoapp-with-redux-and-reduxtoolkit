@@ -1,22 +1,37 @@
+body {
+  width: 100%;
+}
+
 .App__counter {
   height: 60px;
   display: flex;
   align-items: center;
   margin-left: 64px;
   font-size: 18px;
+  font-weight: 500;
 }
 
 .App__header {
   align-items: center;
-  background: rgb(118, 74, 188);
+  background: #1A1F4C;
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 64px 0;
+  padding: 30px 0 64px 0;
+}
+
+h3 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
 }
 
 h1 {
+  margin: 0;
+  margin-bottom: 50px;
   font-size: 48px;
   font-weight: 700;
 }
@@ -57,7 +72,7 @@ button:focus {
 
 button:hover {
   background: white;
-  color: rgb(92, 61, 143);
+  color: #1A1F4C;
 }
 
 button:active {
