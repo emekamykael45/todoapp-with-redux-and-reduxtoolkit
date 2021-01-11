@@ -1,6 +1,6 @@
 My simple Todo App compares Redux vs Redux Toolkit (RTK). Created using TypeScript, ReactJS, Redux and Redux Toolkit.
 
-<img src="image.jpg" alt="app" style="margin-left: 10px;" />
+<img src="image.jpeg" alt="app" style="margin-left: 10px;" />
 
 ## About this app?
 
